@@ -12,13 +12,16 @@ if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: task1 <file> <output> ", file=sys.stderr)
         exit(-1)
-        
+
     sc = SparkContext(appName="PythonTask1")
+
+    sc.setLogLevel("DEBUG")
+
     lines = sc.textFile(sys.argv[1], 1)
 
     processed = lines.map(lambda x: x.split(',')) \
         .filter(checkLine) \
-        .map(lambda x: (x[0], set(x[1]))) \
+        .map(lambda x: (x[0], {x[1]})) \
         .reduceByKey(lambda x,y: x.union(y)) \
         .mapValues(lambda values: len(values))
         
