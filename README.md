@@ -28,9 +28,22 @@ Student UT EID: kn8794
 
 
 
-# pyspark-template
+# Screenshots
 
-This is a pyspark project template
+## Machines
+<img width="1316" alt="machines" src="https://github.com/limdan8vq/cloud-computing-a6/assets/46058110/f7630dc5-a4ff-4d5a-9f97-9ae53b1e0798">
+
+## Task 1
+<img width="349" alt="task1" src="https://github.com/limdan8vq/cloud-computing-a6/assets/46058110/1133172b-e80d-41d0-99e9-2e37a4bcad22">
+
+## Task 2
+<img width="833" alt="task2" src="https://github.com/limdan8vq/cloud-computing-a6/assets/46058110/a2136da1-d161-4281-b346-eb825c030fd2">
+
+## Task 3
+<img width="646" alt="task3" src="https://github.com/limdan8vq/cloud-computing-a6/assets/46058110/fe53a01f-88b3-460a-bd6b-5631ee5593fe">
+
+## Spark History
+<img width="1504" alt="spark" src="https://github.com/limdan8vq/cloud-computing-a6/assets/46058110/184b9d23-71de-44e2-8df3-1cbc36b35eb7">
 
 
 ## Describe here your project
